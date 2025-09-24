@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Xchangeon Ebs - Portais e Serviços de Informação na Internet</title>
+    <meta name="description" content="A Xchangeon Ebs é especializada em portais, provedores de conteúdo e outros serviços de informação na internet. Conheça nossos serviços.">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.0/font/bootstrap-icons.css">
+    <style>
+        :root {
+            --primary-color: #1a5276;
+            --secondary-color: #3498db;
+            --accent-color: #f39c12;
+            --light-color: #ecf0f1;
+            --dark-color: #2c3e50;
+        }
+        
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            color: #333;
+        }
+        
+        .navbar {
+            background-color: var(--primary-color);
+        }
+        
+        .navbar-brand, .nav-link {
+            color: white !important;
+            font-weight: 600;
+        }
+        
+        .btn-primary {
+            background-color: var(--secondary-color);
+            border-color: var(--secondary-color);
+        }
+        
+        .btn-primary:hover {
+            background-color: var(--primary-color);
+            border-color: var(--primary-color);
+        }
+        
+        .btn-accent {
+            background-color: var(--accent-color);
+            border-color: var(--accent-color);
+            color: white;
+        }
+        
+        .hero-section {
+            background: linear-gradient(rgba(26, 82, 118, 0.8), rgba(26, 82, 118, 0.9)), url('https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-4.0.3&auto=format&fit=crop&w=1350&q=80');
+            background-size: cover;
+            background-position: center;
+            color: white;
+            padding: 100px 0;
+        }
+        
+        .section-title {
+            color: var(--primary-color);
+            position: relative;
+            padding-bottom: 15px;
+            margin-bottom: 30px;
+        }
+        
+        .section-title:after {
+            content: '';
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 60px;
+            height: 3px;
+            background-color: var(--accent-color);
+        }
+        
+        .feature-box {
+            padding: 30px 20px;
+            border-radius: 8px;
+            transition: transform 0.3s;
+            text-align: center;
+            margin-bottom: 30px;
+            background-color: white;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+        }
+        
+        .feature-box:hover {
+            transform: translateY(-10px);
+        }
+        
+        .feature-icon {
+            font-size: 3rem;
+            color: var(--secondary-color);
+            margin-bottom: 20px;
+        }
+        
+        footer {
+            background-color: var(--dark-color);
+            color: white;
+            padding: 50px 0 20px;
+        }
+        
+        .footer-links a {
+            color: var(--light-color);
+            text-decoration: none;
+            display: block;
+            margin-bottom: 10px;
+        }
+        
+        .footer-links a:hover {
+            color: var(--accent-color);
+        }
+        
+        .copyright {
+            border-top: 1px solid rgba(255,255,255,0.1);
+            padding-top: 20px;
+            margin-top: 30px;
+        }
+    </style>
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark sticky-top">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <i class="bi bi-globe me-2"></i>Xchangeon Ebs
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#home">Xchangeon Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#sobre">Xchangeon Sobre</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#servicos">Xchangeon Serviços</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contato">Xchangeon Contato</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link btn btn-accent ms-2" href="#login">Xchangeon Login</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero-section">
+        <div class="container text-center">
+            <h1 class="display-4 fw-bold mb-4">Xchangeon Ebs - Inovação em Serviços de Informação</h1>
+            <p class="lead mb-4">Especialistas em portais, provedores de conteúdo e soluções digitais desde 2015</p>
+            <a href="#servicos" class="btn btn-primary btn-lg me-2">Xchangeon Serviços</a>
+            <a href="#contato" class="btn btn-outline-light btn-lg">Xchangeon Contato</a>
+        </div>
+    </section>
+
+    <!-- Sobre -->
+    <section id="sobre" class="py-5">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6">
+                    <h2 class="section-title">Xchangeon Sobre Nós</h2>
+                    <p>A <strong>Xchangeon Ebs</strong>, com razão social Casoca Marketplace LTDA, foi fundada em 10 de agosto de 2015 e está localizada em Belo Horizonte, Minas Gerais.</p>
+                    <p>Nossa atividade principal, conforme a Receita Federal, é <strong>63.19-4-00 - Portais, provedores de conteúdo e outros serviços de informação na internet</strong>.</p>
+                    <p>Com CNPJ 23.024.154/0001-19 e situação cadastral Ativa, estamos comprometidos em oferecer soluções digitais inovadoras e de alta qualidade para nossos clientes.</p>
+                    <a href="#contato" class="btn btn-primary mt-3">Xchangeon Fale Conosco</a>
+                </div>
+                <div class="col-lg-6">
+                    <img src="https://images.unsplash.com/photo-1521737711867-e3b97375f902?ixlib=rb-4.0.3&auto=format&fit=crop&w=634&q=80" alt="Equipe Xchangeon" class="img-fluid rounded shadow">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Serviços -->
+    <section id="servicos" class="py-5 bg-light">
+        <div class="container">
+            <h2 class="section-title text-center">Xchangeon Serviços</h2>
+            <p class="text-center mb-5">Oferecemos soluções completas em serviços de informação na internet</p>
+            
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="feature-box">
+                        <i class="bi bi-laptop feature-icon"></i>
+                        <h4>Xchangeon Portais Corporativos</h4>
+                        <p>Desenvolvemos portais personalizados para empresas, integrando informações e facilitando o acesso a dados importantes.</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="feature-box">
+                        <i class="bi bi-cloud-arrow-up feature-icon"></i>
+                        <h4>Xchangeon Provedores de Conteúdo</h4>
+                        <p>Oferecemos soluções completas para distribuição e gerenciamento de conteúdo digital para diversos segmentos.</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="feature-box">
+                        <i class="bi bi-shield-check feature-icon"></i>
+                        <h4>Xchangeon Serviços de Informação</h4>
+                        <p>Implementamos sistemas seguros e eficientes para coleta, processamento e disponibilização de informações.</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="row mt-4">
+                <div class="col-md-4">
+                    <div class="feature-box">
+                        <i class="bi bi-graph-up feature-icon"></i>
+                        <h4>Xchangeon Análise de Dados</h4>
+                        <p>Transformamos dados em insights valiosos para tomada de decisões estratégicas em sua empresa.</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="feature-box">
+                        <i class="bi bi-phone feature-icon"></i>
+                        <h4>Xchangeon Soluções Mobile</h4>
+                        <p>Desenvolvemos aplicações móveis integradas aos nossos serviços de informação.</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="feature-box">
+                        <i class="bi bi-headset feature-icon"></i>
+                        <h4>Xchangeon Suporte Técnico</h4>
+                        <p>Oferecemos suporte especializado para garantir o funcionamento contínuo de nossas soluções.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Diferenciais -->
+    <section class="py-5">
+        <div class="container">
+            <h2 class="section-title text-center">Por que escolher a Xchangeon?</h2>
+            
+            <div class="row mt-5">
+                <div class="col-lg-3 col-md-6 text-center mb-4">
+                    <i class="bi bi-award display-4 text-primary mb-3"></i>
+                    <h4>Experiência Comprovada</h4>
+                    <p>Atuando desde 2015 no mercado de serviços de informação.</p>
+                </div>
+                <div class="col-lg-3 col-md-6 text-center mb-4">
+                    <i class="bi bi-gear display-4 text-primary mb-3"></i>
+                    <h4>Tecnologia de Ponta</h4>
+                    <p>Utilizamos as mais modernas tecnologias em nossos projetos.</p>
+                </div>
+                <div class="col-lg-3 col-md-6 text-center mb-4">
+                    <i class="bi bi-people display-4 text-primary mb-3"></i>
+                    <h4>Equipe Qualificada</h4>
+                    <p>Profissionais especializados e em constante atualização.</p>
+                </div>
+                <div class="col-lg-3 col-md-6 text-center mb-4">
+                    <i class="bi bi-shield-check display-4 text-primary mb-3"></i>
+                    <h4>Conformidade Legal</h4>
+                    <p>Todos os serviços em conformidade com a legislação brasileira.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contato -->
+    <section id="contato" class="py-5 bg-light">
+        <div class="container">
+            <h2 class="section-title text-center">Xchangeon Contato</h2>
+            
+            <div class="row mt-5">
+                <div class="col-lg-8 mx-auto">
+                    <form>
+                        <div class="row">
+                            <div class="col-md-6 mb-3">
+                                <label for="nome" class="form-label">Nome</label>
+                                <input type="text" class="form-control" id="nome" required>
+                            </div>
+                            <div class="col-md-6 mb-3">
+                                <label for="email" class="form-label">E-mail</label>
+                                <input type="email" class="form-control" id="email" required>
+                            </div>
+                        </div>
+                        <div class="mb-3">
+                            <label for="assunto" class="form-label">Assunto</label>
+                            <input type="text" class="form-control" id="assunto" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="mensagem" class="form-label">Mensagem</label>
+                            <textarea class="form-control" id="mensagem" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Xchangeon Enviar Mensagem</button>
+                    </form>
+                </div>
+            </div>
+            
+            <div class="row mt-5">
+                <div class="col-md-4 text-center">
+                    <i class="bi bi-geo-alt fs-1 text-primary"></i>
+                    <h4>Endereço</h4>
+                    <p>Belo Horizonte, Minas Gerais</p>
+                </div>
+                <div class="col-md-4 text-center">
+                    <i class="bi bi-envelope fs-1 text-primary"></i>
+                    <h4>E-mail</h4>
+                    <p>contato@xchangeon.com.br</p>
+                </div>
+                <div class="col-md-4 text-center">
+                    <i class="bi bi-telephone fs-1 text-primary"></i>
+                    <h4>Telefone</h4>
+                    <p>(31) 99999-9999</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 mb-4">
+                    <h4>Xchangeon Ebs</h4>
+                    <p>Especialistas em portais, provedores de conteúdo e serviços de informação na internet desde 2015.</p>
+                    <div class="mt-3">
+                        <a href="#" class="text-light me-3"><i class="bi bi-facebook fs-5"></i></a>
+                        <a href="#" class="text-light me-3"><i class="bi bi-instagram fs-5"></i></a>
+                        <a href="#" class="text-light me-3"><i class="bi bi-linkedin fs-5"></i></a>
+                        <a href="#" class="text-light"><i class="bi bi-twitter fs-5"></i></a>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-6 mb-4">
+                    <h5>Xchangeon Links</h5>
+                    <div class="footer-links">
+                        <a href="#home">Xchangeon Home</a>
+                        <a href="#sobre">Xchangeon Sobre</a>
+                        <a href="#servicos">Xchangeon Serviços</a>
+                        <a href="#contato">Xchangeon Contato</a>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <h5>Xchangeon Serviços</h5>
+                    <div class="footer-links">
+                        <a href="#servicos">Xchangeon Portais</a>
+                        <a href="#servicos">Xchangeon Provedores</a>
+                        <a href="#servicos">Xchangeon Informação</a>
+                        <a href="#servicos">Xchangeon Suporte</a>
+                    </div>
+                </div>
+                <div class="col-lg-3 mb-4">
+                    <h5>Xchangeon Newsletter</h5>
+                    <p>Inscreva-se para receber nossas atualizações.</p>
+                    <div class="input-group">
+                        <input type="email" class="form-control" placeholder="Seu e-mail">
+                        <button class="btn btn-accent" type="button">Xchangeon Inscrever</button>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="row copyright">
+                <div class="col-md-6">
+                    <p>&copy; 2023 Xchangeon Ebs - Casoca Marketplace LTDA. Todos os direitos reservados.</p>
+                </div>
+                <div class="col-md-6 text-md-end">
+                    <p>CNPJ: 23.024.154/0001-19</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
